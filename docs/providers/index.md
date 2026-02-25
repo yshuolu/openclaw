@@ -57,6 +57,7 @@ See [Venice AI](/providers/venice).
 - [vLLM (local models)](/providers/vllm)
 - [Qianfan](/providers/qianfan)
 - [NVIDIA](/providers/nvidia)
+- [SkillBoss](/providers/skillboss)
 
 ## Transcription providers
 
