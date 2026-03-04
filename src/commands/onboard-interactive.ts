@@ -9,7 +9,7 @@ import type { OnboardOptions } from "./onboard-types.js";
 export async function runInteractiveOnboarding(
   opts: OnboardOptions,
   runtime: RuntimeEnv = defaultRuntime,
-) {
+): Promise<void> {
   const prompter = createClackPrompter();
   let exitCode: number | null = null;
   try {
